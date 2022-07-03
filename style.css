@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Montserrat:wght@400;700&display=swap');
+
+body{
+    font-family: 'Caveat', cursive;
+/* font-family: 'Montserrat', sans-serif; */
+}
+
+nav{
+    background-color: blue;
+    padding: 20px;
+}
+ul{
+    list-style-type: none;
+    text-align: right;
+}
+
+
+li{
+    display: inline;
+    margin: 0px 17px;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+a , .nav-heading{
+    color: white;
+}
+
+.container , .quiz-form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2px;
+    background-color: blue;
+    color: white;
+}
+
+
+input{
+    margin: 10px 0px;
+    padding: 4px;
+}
+
+label{
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.question-container{
+    font-weight: 700;
+    margin: 24px 0px;
+}
+
+#submit-btn {
+    padding: 14px 21px;
+    background: blue;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    border: 2px solid;
+    border-radius: 14px;
+}
+
+.output{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+.full-bg-color{
+    min-height: 497px;
+}
+
+#btn-triangle{
+    padding: 4px 36px;
+    font-size: large;
+    font-weight: bolder;
+    margin-top: 10px;
+    background-color: blue;
+    color: white;
+    border: 2px solid;
+    border-radius: 7px;
+}
+
+.output-triangle{
+    margin: 30px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.btn-calculate{
+    padding: 5px 6px;
+    font-size: medium;
+    font-weight: bold;
+    margin: 20px;
+}
+
+.area{
+    padding: 6px 32px;
+    font-size: medium;
+    font-weight: bold;
+    margin: 20px;
+}
