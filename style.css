@@ -79,16 +79,18 @@ label{
 }
 
 .full-bg-color{
-    min-height: 497px;
+    min-height: 600px;
 }
+
+
 
 #btn-triangle{
     padding: 4px 36px;
     font-size: large;
     font-weight: bolder;
     margin-top: 10px;
-    background-color: blue;
-    color: white;
+    /* background-color: blue; */
+    /* color: white; */
     border: 2px solid;
     border-radius: 7px;
 }
@@ -111,4 +113,21 @@ label{
     font-size: medium;
     font-weight: bold;
     margin: 20px;
+}
+button{
+    cursor: pointer;
+}
+
+a:hover{
+    border: 2px solid;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+    border: 2px solid;
+    border-radius: 12px;
+
 }
