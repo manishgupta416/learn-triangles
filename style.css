@@ -131,3 +131,13 @@ button:hover{
     border-radius: 12px;
 
 }
+
+
+@media screen and (max-width: 830px) {
+    li {
+      display: block;
+      display: block;
+      margin: 20px;
+     
+    }
+  }
