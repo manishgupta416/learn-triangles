@@ -7,11 +7,15 @@ calculateBtn.addEventListener("click" , calculateHypotenous)
 
 function calculateHypotenous () {
     // console.log(baseInput.value , heightInput.value)
-   
+   if((baseInput.value )&& (heightInput.value)){
     const sumOfSquares =  calculateSumOfSquares(Number(baseInput.value) ,Number(heightInput.value))
     const lengthOfHypotenous = Math.sqrt(sumOfSquares)
     output.innerText = "The length of hypotenous is " + lengthOfHypotenous
-    
+
+   } else{
+    output.innerText = "Please input all fields "
+   }
+ 
 }
 
 function calculateSumOfSquares (a,b) {
