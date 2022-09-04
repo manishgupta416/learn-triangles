@@ -21,6 +21,10 @@ ul{
     text-align: right;
 }
 
+strong{
+    margin: 15px;
+}
+
 
 li{
     display: inline;
@@ -51,6 +55,7 @@ input{
 }
 
 label{
+    display: block;
     margin-top: 20px;
     font-size: large;
     font-weight: bold;
@@ -58,8 +63,11 @@ label{
 
 .question-container{
     font-weight: 700;
-    margin: 24px 0px;
+    margin: 2rem;
+    width: 606.731px;
+    height: 124.444px;
 }
+
 
 #submit-btn {
     padding: 14px 21px;
@@ -133,11 +141,25 @@ button:hover{
 }
 
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 700px) {
     li {
       display: block;
       display: block;
       margin: 20px;
      
+    }
+    label{
+        display: inline;
+        margin-top: 20px;
+        font-size: large;
+        font-weight: bold;
+    }
+    
+    .question-container{
+        font-weight: 700;
+        margin: 24px 0px;
+        width: 302.404px;
+        height: 124.444px;
+       
     }
   }

@@ -7,13 +7,13 @@ calculateBtn.addEventListener("click" , calculateHypotenous)
 
 function calculateHypotenous () {
     // console.log(baseInput.value , heightInput.value)
-   if((baseInput.value )&& (heightInput.value)){
-    const sumOfSquares =  calculateSumOfSquares(Number(baseInput.value) ,Number(heightInput.value))
+   if(Number(baseInput.value) > 0 && Number(heightInput.value) > 0){
+    const sumOfSquares =  calculateSumOfSquares((baseInput.value) ,(heightInput.value))
     const lengthOfHypotenous = Math.sqrt(sumOfSquares)
     output.innerText = "The length of hypotenous is " + lengthOfHypotenous
 
    } else{
-    output.innerText = "Please input all fields "
+    output.innerText = "Please input all fields and (value should be greater than 0)"
    }
  
 }

@@ -8,7 +8,6 @@ const rightAnswers = [
   "90°",
   "right angled",
   "one right angle",
-  "12, 16, 20",
   "Equilateral triangle",
   "100°",
   "30°",
